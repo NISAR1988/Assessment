@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assesment.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="calculator">
+                <div class="output">
+                    <pre id="upper"></pre>
+                    <pre id="lower">0</pre>
+                </div>
+                <div class="input">
+                    <div class="part1">
+                        <button onclick="pressNum(this)">7</button> <br>
+                        <button onclick="pressNum(this)">4</button> <br>
+                        <button onclick="pressNum(this)">1</button> <br>
+                        <button onclick="pressDot()">.</button> <br>
+                    </div>
+                    <div class="part1">
+                        <button onclick="pressNum(this)">8</button> <br>
+                        <button onclick="pressNum(this)">5</button> <br>
+                        <button onclick="pressNum(this)">2</button> <br>
+                        <button onclick="pressNum(this)">0</button> <br>
+                    </div>
+                    <div class="part1">
+                        <button onclick="pressNum(this)">9</button> <br>
+                        <button onclick="pressNum(this)">6</button> <br>
+                        <button onclick="pressNum(this)">3</button> <br>
+                        <button onclick="pressEqual()">=</button> <br>
+                    </div>
+                    <div class="part11">
+                        <button onclick="pressAllClear()">Del</button> <br>
+                        <button onclick="pressOperator(this)">/</button> <br>
+                        <button onclick="pressOperator(this)">*</button> <br>
+                        <button onclick="pressOperator(this)">-</button> <br>
+                        <button onclick="pressNum(this)">+</button> <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Assesment.js"></script>
+</body>
+
+</html>
